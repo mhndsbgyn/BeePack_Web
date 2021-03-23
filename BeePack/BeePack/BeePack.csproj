@@ -314,6 +314,9 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\tr\Anasayfa.cshtml" />
+    <Content Include="Views\tr\Hakkımızda.cshtml" />
+    <Content Include="Views\tr\Urun.cshtml" />
+    <Content Include="Views\tr\Iletisim.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

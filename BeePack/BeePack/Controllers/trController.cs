@@ -13,5 +13,17 @@ namespace BeePack.Controllers
         {
             return View();
         }
+        public ActionResult Hakkımızda()
+        {
+            return View();
+        }
+        public ActionResult Urun()
+        {
+            return View();
+        }
+        public ActionResult Iletisim()
+        {
+            return View();
+        }
     }
 }
