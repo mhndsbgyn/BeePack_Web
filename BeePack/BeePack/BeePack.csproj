@@ -291,6 +291,7 @@
     <Content Include="Content\BeePack\assets\vendor\remixicon\remixicon.ttf" />
     <Content Include="Content\BeePack\assets\vendor\remixicon\remixicon.woff" />
     <Content Include="Content\BeePack\assets\vendor\remixicon\remixicon.woff2" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -314,9 +315,9 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\tr\Anasayfa.cshtml" />
-    <Content Include="Views\tr\Hakkımızda.cshtml" />
     <Content Include="Views\tr\Urun.cshtml" />
     <Content Include="Views\tr\Iletisim.cshtml" />
+    <Content Include="Views\tr\Hakkimizda.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -13,7 +13,8 @@ namespace BeePack.Controllers
         {
             return View();
         }
-        public ActionResult Hakkımızda()
+      
+        public ActionResult Hakkimizda()
         {
             return View();
         }

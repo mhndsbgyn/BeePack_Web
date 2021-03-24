@@ -27,6 +27,12 @@ fill:#3e3e3e !important;
  background: rgb(102, 102, 102) !important;
  margin-bottom: 5px !important;
 }
+.darkmode--activated .breadcrumbs {
+    isolation: isolate;
+}
+.darkmode--activated .mobile-nav-toggle {
+    color: white !important;
+}
 
 
 body {
@@ -268,12 +274,12 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #111;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
+    color: #5a5a5a;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    transition: 0.5s;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -320,11 +326,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-.navbar-mobile a {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #111;
-}
+    .navbar-mobile a {
+        padding: 10px 20px;
+        font-size: 15px;
+        color: #5a5a5a;
+    }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #ef7f1b;
