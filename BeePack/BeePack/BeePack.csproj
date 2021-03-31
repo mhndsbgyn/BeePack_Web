@@ -124,6 +124,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Email.cs" />
+    <Compile Include="Models\iletisimModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -194,9 +196,11 @@
     <Content Include="Content\BeePack\assets\img\testimonials\testimonials-5.jpg" />
     <Content Include="Content\BeePack\assets\img\testimonials\testimonials-6.jpg" />
     <Content Include="Content\BeePack\assets\img\Urun\ambalaj-kagidi.jpg" />
+    <Content Include="Content\BeePack\assets\img\Urun\ambalaj.jpg" />
     <Content Include="Content\BeePack\assets\img\Urun\amerikan-servis-kagidi.jpg" />
     <Content Include="Content\BeePack\assets\img\Urun\el-gecmeli-kraft.jpg" />
     <Content Include="Content\BeePack\assets\img\Urun\koruklu-kese-kagidi.jpg" />
+    <Content Include="Content\BeePack\assets\img\Urun\koruklu.jpg" />
     <Content Include="Content\BeePack\assets\img\Urun\koruksuz-hamburger-kese-kagidi.jpg" />
     <Content Include="Content\BeePack\assets\img\Urun\koruksuz-kese.jpg" />
     <Content Include="Content\BeePack\assets\img\Urun\kraft-burgu.jpg" />
@@ -248,6 +252,29 @@
     <Content Include="Content\BeePack\assets\vendor\swiper\swiper-bundle.min.css" />
     <Content Include="Content\BeePack\assets\vendor\swiper\swiper-bundle.min.js" />
     <Content Include="Content\BeePack\assets\vendor\waypoints\noframework.waypoints.js" />
+    <Content Include="Content\BeePack\tesis\1.jpeg" />
+    <Content Include="Content\BeePack\tesis\10.jpeg" />
+    <Content Include="Content\BeePack\tesis\11.jpeg" />
+    <Content Include="Content\BeePack\tesis\12.jpeg" />
+    <Content Include="Content\BeePack\tesis\13.jpeg" />
+    <Content Include="Content\BeePack\tesis\14.jpeg" />
+    <Content Include="Content\BeePack\tesis\15.jpeg" />
+    <Content Include="Content\BeePack\tesis\16.jpeg" />
+    <Content Include="Content\BeePack\tesis\17.jpeg" />
+    <Content Include="Content\BeePack\tesis\18.jpeg" />
+    <Content Include="Content\BeePack\tesis\19.jpeg" />
+    <Content Include="Content\BeePack\tesis\2.jpeg" />
+    <Content Include="Content\BeePack\tesis\20.jpeg" />
+    <Content Include="Content\BeePack\tesis\21.jpeg" />
+    <Content Include="Content\BeePack\tesis\22.jpeg" />
+    <Content Include="Content\BeePack\tesis\23.jpeg" />
+    <Content Include="Content\BeePack\tesis\3.jpeg" />
+    <Content Include="Content\BeePack\tesis\4.jpeg" />
+    <Content Include="Content\BeePack\tesis\5.jpeg" />
+    <Content Include="Content\BeePack\tesis\6.jpeg" />
+    <Content Include="Content\BeePack\tesis\7.jpeg" />
+    <Content Include="Content\BeePack\tesis\8.jpeg" />
+    <Content Include="Content\BeePack\tesis\9.jpeg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -319,10 +346,10 @@
     <Content Include="Views\tr\Urun.cshtml" />
     <Content Include="Views\tr\Iletisim.cshtml" />
     <Content Include="Views\tr\Hakkimizda.cshtml" />
+    <Content Include="Views\tr\Tesis.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

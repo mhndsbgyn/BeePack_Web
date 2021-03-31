@@ -63,28 +63,45 @@
 
             <div class="row mt-5 justify-content-center" data-aos="fade-up">
                 <div class="col-lg-10">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="İsim" required>
+                    @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "contact-form", action = "" }))
+                    {
+                        if (ViewBag.Success != null && ViewBag.Success)
+                        {
+                            <div id="wrapper">
+                                <div id="message-sent">
+                                    <div id="close-button">
+                                        <span></span>
+                                    </div>
+                                    <span>Mesajınız başarıyla gönderilmiştir.</span>
+                                </div>
                             </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                        }
+                        <form action="" method="post" role="form" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="İsim" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Konu" required>
-                        </div>
-                        <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Mesaj" required></textarea>
-                        </div>
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Mesajınız Gönderildi. Teşekkürler!</div>
-                        </div>
-                        <div class="text-center"><button type="submit">Mesajı Gönder</button></div>
-                    </form>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="Konu" id="subject" placeholder="Konu" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="Aciklama" rows="5" placeholder="Mesaj" required></textarea>
+                            </div>
+
+                            <div class="text-center">
+                            <button type="submit"  style="color: #fff;
+    background-color: #f08a2f;
+    border-color: #ef7f1b;
+    width: 229px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 14px;">Mesajı Gönder</button></div>
+                        </form>
+                    }
                 </div>
 
             </div>
