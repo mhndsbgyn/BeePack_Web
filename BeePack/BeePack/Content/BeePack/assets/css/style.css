@@ -3,50 +3,7 @@
 }
 
 
-.darkmode--activated header {
-    background-color: black !important;
-}
 
-.darkmode--activated .navbar a {
-    color: #ef7f1b !important;
-}
-
-.darkmode--activated .light-logo {
-    display: none !important;
-}
-
-.darkmode--activated .dark-logo {
-    display: inherit !important;
-}
-
-.darkmode--activated footer {
-    isolation: isolate;
-}
-
-.dark-logo {
-    display: none !important;
-}
-
-.darkmode--activated .services .icon-box {
-    background: #212121 !important;
-}
-
-    .darkmode--activated .services .icon-box .icon svg path {
-        fill: #3e3e3e !important;
-    }
-
-.darkmode--activated .clients .client-logo {
-    background: rgb(102, 102, 102) !important;
-    margin-bottom: 5px !important;
-}
-
-.darkmode--activated .breadcrumbs {
-    isolation: isolate;
-}
-
-.darkmode--activated .mobile-nav-toggle {
-    color: white !important;
-}
 
 
 body {
@@ -545,13 +502,17 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #hero .carousel-content h2 {
-        margin-bottom: 15px;
-        font-size: 22px;
-    }
-
-    #hero .carousel-content p {
+        margin-bottom: -28px;
         font-size: 15px;
     }
+
+    #hero .carousel-content {
+        padding: 15px !important;
+    }
+
+        #hero .carousel-content p {
+            font-size: 15px;
+        }
 }
 
 @media (max-height: 500px) {
